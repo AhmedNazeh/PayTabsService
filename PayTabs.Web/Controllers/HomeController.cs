@@ -18,6 +18,7 @@ namespace PayTabs.Web.Controllers
             return View();
         }
       
+        // test action 
         public async Task<ActionResult> SendPaymentAsync()
         {
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
