@@ -1,0 +1,24 @@
+﻿@model PayTabs.Web.Models.Helpers.ResponseVM
+
+@{
+    ViewBag.Title = "ErrorResponse";
+}
+
+<h2>يرجى مراجعة التفاصيل الاتية</h2>
+
+
+<h3 >
+    @Model.result
+</h3>
+
+@if(Model.response_code != null)
+{
+    <form action="@Url.Action("CancelPayment","Home")" method="post">
+        <br />
+        <input type="hidden" name="PayId" value="@Model.response_code" />
+        <b >من فضلك الغى الطلب المسبق</b>
+        <br />
+        <input type="submit" value="الغاء الطلب"  class="btn btn-danger"/>
+
+    </form>
+}

@@ -175,6 +175,10 @@ D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\bin\Microsoft.Owin.Secur
 D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\bin\Microsoft.Owin.Security.OAuth.xml
 D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\obj\Debug\PayTabs.Web.csprojAssemblyReference.cache
+D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\obj\Debug\PayTabs.Web.Migrations.CreateDb.resources
+D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\obj\Debug\PayTabs.Web.Migrations.ChangePaymentTabel.resources
+D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\obj\Debug\PayTabs.Web.csproj.GenerateResource.cache
 D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\obj\Debug\PayTabs.Web.csproj.CoreCompileInputs.cache
 D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\obj\Debug\PayTabs.Web.csproj.CopyComplete
 D:\My Projects\freelance\paytabs\PayTabsGit\PayTabs.Web\obj\Debug\PayTabs.Web.dll

@@ -1,0 +1,56 @@
+﻿@model PayTabs.Web.Models.UserPaymentInfo
+
+@{
+    ViewBag.Title = "Thank";
+}
+
+<h2>شكرا لك تمت العملية بنجاح</h2>
+
+<div>
+    <h4> تفاصيل العملية الخاصة بكم</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    
+
+        <dt>
+           رقم الفاتوره
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pt_invoice_id)
+        </dd>
+
+        <dt>
+           السعر
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.amount)
+        </dd>
+
+        <dt>
+           العمله
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.currency)
+        </dd>
+
+        <dt>
+           رقم المرجع
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reference_no)
+        </dd>
+
+        <dt>
+           رقم العملية
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.transaction_id)
+        </dd>
+
+    </dl>
+</div>

@@ -29,5 +29,7 @@ namespace PayTabs.Web.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<UserPaymentInfo> UserPaymentInfo { get; set; }
     }
 }

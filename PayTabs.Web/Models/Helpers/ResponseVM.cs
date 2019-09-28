@@ -10,6 +10,6 @@ namespace PayTabs.Web.Models.Helpers
         public string result { get; set; }
         public string response_code { get; set; }
         public string payment_url { get; set; }
-        public long p_id { get; set; }
+        public string p_id { get; set; }
     }
 }
